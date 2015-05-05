@@ -13,7 +13,7 @@ exports = module.exports = function(app) {
   router.get('/users', function(req, res) { Users.getUsers(req, res); });
   router.post('/users', function(req, res) { Users.createUser(req, res); });
 
-  router.get('/users/:id', function(req, res) { notImplemented(res); });
+  router.get('/users/:id', function(req, res) { Users.getUser(req, res); });
   router.patch('/users/:id', function(req, res) { notImplemented(res); });
   router.delete('/users/:id', function(req, res) { notImplemented(res); });
 
