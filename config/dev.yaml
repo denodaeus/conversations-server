@@ -1,0 +1,10 @@
+Application:
+  companyName: 'BMarko Mobility LLC'
+  projectName: 'Conversations Server'
+  systemEmail: 'admin@utu.me'
+  port: 3000
+User:
+  dbConfig:
+    host: localhost
+    port: 27017
+    dbName: users
